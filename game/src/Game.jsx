@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import './App.css'
 
-function App() {
+function Game() {
   const [random]=useState(Math.floor(Math.random()*10)+1)
 
   const [guessnumber,setGuessnumber]=useState("")
@@ -46,5 +45,5 @@ function App() {
   )
 }
 
-export default App
+export default Game
 
